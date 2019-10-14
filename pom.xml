@@ -21,8 +21,6 @@
         <module>dubboapi</module>
         <!-- 服务提供者-->
         <module>dubboserver</module>
-
-
     </modules>
     <properties>
         <java.version>1.8</java.version>
