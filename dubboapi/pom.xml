@@ -14,22 +14,15 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>dubbo common api</name>
 
-    <dependencies>
-
-    </dependencies>
     <build>
         <plugins>
             <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-                <executions>
-                    <execution>
-                        <phase>none</phase>
-                    </execution>
-                </executions>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-resources-plugin</artifactId>
+                <!--<groupId>org.springframework.boot</groupId>-->
+                <!--<artifactId>spring-boot-maven-plugin</artifactId>-->
             </plugin>
         </plugins>
     </build>
-
 
 </project>
